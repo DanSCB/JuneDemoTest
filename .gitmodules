@@ -1,0 +1,4 @@
+[submodule "AngleTextSDK"]
+	path = AngleTextSDK
+	url = https://DanSCB@github.com/DanSCB/AngletextSDK.git
+	branch = UpdateSDK

@@ -16,6 +16,7 @@ struct ContentView: View {
             Color.cyan
             HStack {
                 TextAngler(theText: "Hello", angle: $angle)
+                TextAngler(theText: "Wide", angle: $angle)
                 TextAngler(theText: "World", angle: $angle)
             }
         }

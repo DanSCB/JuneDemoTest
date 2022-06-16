@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC6A8FF62852396400E4A90E /* AngletextSDK in Frameworks */ = {isa = PBXBuildFile; productRef = AC6A8FF52852396400E4A90E /* AngletextSDK */; };
+		AC4DF50E285BCDDA00432C4D /* AngletextSDK in Frameworks */ = {isa = PBXBuildFile; productRef = AC4DF50D285BCDDA00432C4D /* AngletextSDK */; };
 		ACFBDE892850CE8B006A8A2D /* JuneTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBDE882850CE8B006A8A2D /* JuneTestApp.swift */; };
 		ACFBDE8B2850CE8B006A8A2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBDE8A2850CE8B006A8A2D /* ContentView.swift */; };
 		ACFBDE8D2850CE8C006A8A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFBDE8C2850CE8C006A8A2D /* Assets.xcassets */; };
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC6A8FF32852391800E4A90E /* AngletextSDK */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AngletextSDK; path = ../../AngletextSDK; sourceTree = "<group>"; };
+		AC4DF50C285BCDCE00432C4D /* AngleTextSDK */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AngleTextSDK; path = ../AngleTextSDK; sourceTree = "<group>"; };
 		ACFBDE852850CE8A006A8A2D /* JuneTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuneTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFBDE882850CE8B006A8A2D /* JuneTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuneTestApp.swift; sourceTree = "<group>"; };
 		ACFBDE8A2850CE8B006A8A2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC6A8FF62852396400E4A90E /* AngletextSDK in Frameworks */,
+				AC4DF50E285BCDDA00432C4D /* AngletextSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC4DF50B285BCDCE00432C4D /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				AC4DF50C285BCDCE00432C4D /* AngleTextSDK */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		AC6A8FF42852396400E4A90E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +92,7 @@
 		ACFBDE7C2850CE8A006A8A2D = {
 			isa = PBXGroup;
 			children = (
+				AC4DF50B285BCDCE00432C4D /* Packages */,
 				ACFBDE872850CE8B006A8A2D /* JuneTest */,
 				ACFBDE982850CE8D006A8A2D /* JuneTestTests */,
 				ACFBDEA22850CE8D006A8A2D /* JuneTestUITests */,
@@ -105,7 +114,6 @@
 		ACFBDE872850CE8B006A8A2D /* JuneTest */ = {
 			isa = PBXGroup;
 			children = (
-				AC6A8FF32852391800E4A90E /* AngletextSDK */,
 				ACFBDE882850CE8B006A8A2D /* JuneTestApp.swift */,
 				ACFBDE8A2850CE8B006A8A2D /* ContentView.swift */,
 				ACFBDE8C2850CE8C006A8A2D /* Assets.xcassets */,
@@ -156,7 +164,7 @@
 			);
 			name = JuneTest;
 			packageProductDependencies = (
-				AC6A8FF52852396400E4A90E /* AngletextSDK */,
+				AC4DF50D285BCDDA00432C4D /* AngletextSDK */,
 			);
 			productName = JuneTest;
 			productReference = ACFBDE852850CE8A006A8A2D /* JuneTest.app */;
@@ -600,7 +608,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AC6A8FF52852396400E4A90E /* AngletextSDK */ = {
+		AC4DF50D285BCDDA00432C4D /* AngletextSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AngletextSDK;
 		};
